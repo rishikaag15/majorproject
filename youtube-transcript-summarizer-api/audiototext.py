@@ -6,8 +6,8 @@ import subprocess
 import azure.cognitiveservices.speech as speechsdk
 
 
-FFMPEG_PATH = 'C:\\Softwares\\ffmpeg-2022-05-04-git-0914e3a14a-full_build\\bin'
-DESTINATION_WAV_PATH = 'C:\\Projects\\videosummrx\\youtube-transcript-summarizer-api\\tempaudios\\temp.wav'
+FFMPEG_PATH = r'C:\Users\RISHIKA AGARWAL\Downloads\ffmpeg-5.0.1-essentials_build\ffmpeg-5.0.1-essentials_build\bin'
+DESTINATION_WAV_PATH = r'C:\Users\RISHIKA AGARWAL\Desktop\project\videosummrx\youtube-transcript-summarizer-api\tempaudiostemp.wav'
 
 
 def recognize_from_file(src):
